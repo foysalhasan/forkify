@@ -125,9 +125,7 @@ const controlAddRecipe = async function (recipeData) {
   }
 }
 
-const newFeature = () => {
-  console.log("sagor");
-}
+
 const init = function () {
   bookmarksView.addHandlerBookmarks(controlBookmarksLoading);
   recipeView.addHandlerRender(controlRecipe);
@@ -136,7 +134,7 @@ const init = function () {
   searchView.addHandlerSearch(controlSearchResults);
   paginationView.addHandlerClick(controlPagination);
   addRecipeView.addHandlerUpload(controlAddRecipe);
-  newFeature();
+
 }
 
 init();
